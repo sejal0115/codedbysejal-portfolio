@@ -27,18 +27,6 @@ A modern, dark-themed, single-page developer portfolio built with **React.js**, 
 - Framer Motion
 - Formspree (for form handling)
 
-## 📁 Folder Structure
-
-codedbysejal/
-├── public/
-├── src/
-│ ├── components/ // Navbar, Footer, UI Elements
-│ ├── pages/ // Home, About, Experience, Projects, Contact
-│ ├── App.jsx
-│ └── main.jsx
-├── tailwind.config.js
-└── index.css
-
 ## 💡 Inspiration
 
 - [ui.shadcn.com](https://ui.shadcn.com)
