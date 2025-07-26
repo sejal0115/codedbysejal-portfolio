@@ -1,6 +1,6 @@
 # codedbysejal — Personal Portfolio
 
-A modern, dark-themed, single-page developer portfolio built with **React.js**, **Vite**, and **Tailwind CSS v4.1**, inspired by the elegant UI of [nadhir.dev](https://nadhir.dev/). This SPA showcases my professional experience, featured projects, and contact capabilities with animations, dark/light mode toggle, and a fully functional contact form with toast notifications.
+A modern, dark-themed, single-page developer portfolio built with **React.js**, **Vite**, and **Tailwind CSS v4.1**. This SPA showcases my professional experience, featured projects, and contact capabilities with animations, dark/light mode toggle, and a fully functional contact form with toast notifications.
 
 ## 🔗 Live Demo
 
