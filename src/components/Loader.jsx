@@ -1,4 +1,5 @@
 import React from 'react';
+import gif from "/loading.gif";
 import useDarkMode from '../hooks/useDarkMode';
 
 const Loader = () => {
@@ -11,8 +12,8 @@ const Loader = () => {
             }`}
         >
             <img
-                src="/loading.gif"
-                alt="Loading..."
+                src={gif}
+                alt="Loading...."
                 className="h-16 object-contain w-[200px]"
             />
         </div>
