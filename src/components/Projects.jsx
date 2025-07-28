@@ -116,7 +116,7 @@ const Projects = () => {
                                         <h1 className="text-xl font-bold text-[hsl(var(--text-heading))]">
                                             {project.title}
                                         </h1>
-                                        <p className="text-[hsl(var(--text-heading))] dark:text-zinc-300">
+                                        <p className="text-[hsl(var(--text-heading))] dark:text-zinc-500">
                                             {project.description}
                                         </p>
                                         <div className="flex flex-wrap gap-2 mt-2">

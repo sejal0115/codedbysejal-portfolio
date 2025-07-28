@@ -8,7 +8,7 @@ const Navbar = () => {
 
     const scrollTo = (id) => {
         document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
-        setMenuOpen(false); 
+        setMenuOpen(false);
     };
 
     return (
@@ -72,19 +72,20 @@ const Navbar = () => {
             </div>
 
             {/* Mobile Navigation Dropdown */}
-            {menuOpen && (
-                <nav className="md:hidden absolute top-[80px] left-0 w-full z-40 bg-background border-b border-border px-5 py-4 flex flex-col gap-4 transition-all duration-300 ease-in-out">
-                    {['about', 'projects', 'contact'].map((section) => (
-                        <a
-                            key={section}
-                            onClick={() => scrollTo(section)}
-                            className="cursor-pointer text-base font-medium hover:text-primary transition-colors"
-                        >
-                            {section.charAt(0).toUpperCase() + section.slice(1)}
-                        </a>
-                    ))}
-                </nav>
-            )}
+            <nav
+                className={`md:hidden absolute top-[80px] left-0 w-full z-40 bg-background border-b border-border px-5 py-4 flex flex-col gap-4 transition-all duration-300 ease-in-out transform ${menuOpen ? "translate-y-0 opacity-100" : "-translate-y-5 opacity-0 pointer-events-none"
+                    }`}
+            >
+                {['about', 'projects', 'contact'].map((section) => (
+                    <a
+                        key={section}
+                        onClick={() => scrollTo(section)}
+                        className="cursor-pointer text-base font-medium hover:text-primary transition-colors"
+                    >
+                        {section.charAt(0).toUpperCase() + section.slice(1)}
+                    </a>
+                ))}
+            </nav>
         </header>
     );
 };

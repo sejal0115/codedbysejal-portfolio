@@ -39,10 +39,12 @@ const Contact = () => {
         }
     };
 
+
+
     return (
         <>
             <Toaster position="top-right" />
-            <section id="contact" className="flex flex-col border-t border-border px-5 sm:px-20 xl:px-52 bg-background py-20">
+            <section id="contact" className="flex flex-col border-border px-5 sm:px-20 xl:px-52 bg-background py-20">
                 <div className="mesh-gradient border-border border rounded-xl z-0 overflow-hidden">
                     <div className="bg-gradient-primary wave-grid flex flex-col 2xl:flex-row lg:items-center p-8 lg:p-12 gap-12 justify-between">
                         <div className="2xl:mb-10 md:text-center 2xl:text-left">
@@ -75,6 +77,7 @@ const Contact = () => {
                                         onChange={handleChange}
                                         required
                                         placeholder="contact@example.com"
+                                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                                         className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
                                     />
 

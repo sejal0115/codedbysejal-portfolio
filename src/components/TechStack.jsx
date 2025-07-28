@@ -5,7 +5,6 @@ const TechStack = () => {
         "React.js", "Tailwind CSS", "JavaScript", "Redux Toolkit", "Context API", "Git", "GitHub",
         "HTML5", "CSS3", "Framer Motion", "Node.js", "Express.js",
         "MongoDB", "JWT Auth", "RESTful APIs",
-
         "Figma", "Vite", "ShadCN/UI",
         "UI/UX"
     ];

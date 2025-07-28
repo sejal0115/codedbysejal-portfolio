@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Footer = () => {
     return (
         <>
@@ -30,7 +28,7 @@ const Footer = () => {
                         </div>
                         <div className="flex flex-col md:flex-row md:space-x-8">
                             <p className="text-gray-700 dark:text-gray-400 max-w-md">
-                                Built with React 19, TypeScript, Vite, and Tailwind CSS.
+                                Built with React 19, Vite, and Tailwind CSS.
                             </p>
                         </div>
                     </div>

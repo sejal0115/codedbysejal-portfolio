@@ -24,7 +24,7 @@ const Hero = () => {
                             alt="3D Avatar of Sejal"
                             width="128"
                             height="128"
-                            src="./sejal3D_avatar.png"
+                            src="./sejal3D_avatar.webp"
                             className="w-32"
                             style={{ color: "transparent" }}
                             initial={{ scale: 0.8, opacity: 0 }}
