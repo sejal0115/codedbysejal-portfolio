@@ -4,7 +4,7 @@ A modern, dark-themed, single-page developer portfolio built with **React.js**, 
 
 ## 🔗 Live Demo
 
-> [https://codedbysejal.dev](https://codedbysejal.dev)
+> [https://codedbysejal.dev](https://sejaldev.netlify.app/)
 
 ## 🚀 Features
 
