@@ -26,6 +26,7 @@ const Navbar = () => {
                             alt="Sejal.dev Logo"
                             width="22"
                             height="22"
+                            loading="lazy"
                             style={{ color: 'transparent' }}
                         />
                         <div className="text-2xl font-bold gradient-text">Sejal.dev</div>

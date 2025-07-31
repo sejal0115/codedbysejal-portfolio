@@ -1,10 +1,14 @@
 import { useEffect, useState } from "react";
 
 export default function useDarkMode() {
-    const [darkMode, setDarkMode] = useState(() => {
-        return localStorage.getItem("theme") === "dark" ||
-            (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches);
-    });
+    const getInitialTheme = () => {
+        if (typeof window !== "undefined") {
+            return localStorage.getItem("theme") === "dark" || !localStorage.getItem("theme"); // ✅ Dark default
+        }
+        return true; // ✅ Server render default to dark
+    };
+
+    const [darkMode, setDarkMode] = useState(getInitialTheme);
 
     useEffect(() => {
         const root = window.document.documentElement;

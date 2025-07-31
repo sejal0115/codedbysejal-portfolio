@@ -9,6 +9,7 @@ const NotFound = () => {
                 <img
                     src="/notfound.png"
                     alt="Page not found"
+                    loading="lazy"
                     className="mx-auto w-full max-w-md h-auto object-contain mb-6"
                 />
 

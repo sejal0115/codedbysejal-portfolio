@@ -17,7 +17,7 @@ const Footer = () => {
                                             decoding="async"
                                             data-nimg="1"
                                             style={{ color: "transparent" }}
-                                            src="/india_flag.jpg"
+                                            src="/india_flag.webp"
                                         />
                                         <p className="text-gray-700 dark:text-gray-400">
                                             Based In India

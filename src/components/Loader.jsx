@@ -1,4 +1,4 @@
-import gif from "/loading.gif";
+import gif from "/loading.avif";
 import useDarkMode from '../hooks/useDarkMode';
 
 const Loader = () => {
@@ -12,9 +12,10 @@ const Loader = () => {
             <img
                 src={gif}
                 alt="Loading...."
-                className="h-16 object-contain w-[200px]"
+                className="h-16 object-contain w-[120px]"
+                loading="lazy"
             />
-            <h3 className='mt-1 text-3xl'>Loading . . . .</h3>
+            <h3 className='mt-1 text-2xl'>Loading . . . .</h3>
         </div>
     );
 };

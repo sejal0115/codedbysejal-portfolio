@@ -35,6 +35,7 @@ const Contact = () => {
                 toast.error(data?.error || "Something went wrong.");
             }
         } catch (err) {
+            console.log(err);
             toast.error("Network error. Please try again.");
         }
     };

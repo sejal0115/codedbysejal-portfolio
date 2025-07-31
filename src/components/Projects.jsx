@@ -106,6 +106,7 @@ const Projects = () => {
                                     width="600"
                                     height="400"
                                     decoding="async"
+                                    loading="lazy"
                                     className="w-full h-[200px] object-cover transition-all duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-20"
                                     src={project.image}
                                     style={{ color: 'transparent' }}

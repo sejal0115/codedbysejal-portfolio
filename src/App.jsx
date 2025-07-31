@@ -8,12 +8,13 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import NotFound from "./components/NoFound";
 import Loader from "./components/Loader";
+import TechStack from "./components/TechStack";
 
 function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 1800); 
+    const timer = setTimeout(() => setLoading(false), 2000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -29,6 +30,7 @@ function App() {
           element={
             <>
               <Hero />
+              <TechStack />
               <About />
               <Projects />
               <Contact />
