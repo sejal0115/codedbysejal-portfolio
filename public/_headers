@@ -4,5 +4,8 @@
     script-src 'self' 'sha256-MUbDVl6a/9ftRiu9cu8LCEcSgRmMylYcGLFc15XhkI0=';
     style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
     font-src 'self' https://fonts.gstatic.com;
-    img-src 'self' data: https://cdn.jsdelivr.net https://avatars.githubusercontent.com;
+    img-src 'self' data: https://cdn.jsdelivr.net https://avatars.githubusercontent.com https://raw.githubusercontent.com;
     connect-src 'self';
+    object-src 'none';
+    base-uri 'self';
+    form-action 'self';
