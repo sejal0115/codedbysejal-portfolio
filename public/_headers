@@ -1,2 +1,8 @@
 /*
-  Content-Security-Policy: default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self'; img-src 'self' data:; connect-src 'self';
+  Content-Security-Policy: 
+    default-src 'self';
+    script-src 'self' 'sha256-MUbDVl6a/9ftRiu9cu8LCEcSgRmMylYcGLFc15XhkI0=';
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+    font-src 'self' https://fonts.gstatic.com;
+    img-src 'self' data: https://cdn.jsdelivr.net https://avatars.githubusercontent.com;
+    connect-src 'self';
