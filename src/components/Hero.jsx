@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <>
             <main id="main" className="bg-square-pattern bg-repeat bg-50 text-start bg-background text-foreground">
-                <div id="hero" className="flex justify-center items-center p-6 min-h-[calc(100vh-80px)] mx-auto mesh-gradient-center overflow-hidden">
+                <div id="hero" className="relative flex justify-center items-center p-6 min-h-[calc(100vh-80px)] mx-auto mesh-gradient-center overflow-hidden">
                     <motion.div
                         className="grid grid-cols-1"
                         initial={{ opacity: 0, y: 50 }}
@@ -179,6 +179,31 @@ const Hero = () => {
                         </motion.div>
                     </motion.div>
                 </div>
+                {/* Scroll Down Arrow */}
+                <motion.div
+                    className="absolute bottom-6 left-1/2 transform -translate-x-1/2 cursor-pointer z-50"
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: [0, 10, 0] }}
+                    transition={{
+                        duration: 1.5,
+                        repeat: Infinity,
+                        ease: "easeInOut"
+                    }}
+                    onClick={() => {
+                        document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
+                    }}
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        className="w-8 h-8 text-foreground"
+                    >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                </motion.div>
+
             </main>
         </>
     );
