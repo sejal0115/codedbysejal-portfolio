@@ -47,9 +47,9 @@ const About = () => {
                             I collaborate to build effective, user-focused solutions that drive growth:
                         </p>
                         <ul className="list-disc space-y-2 pl-6">
-                            <li className="font-medium">UI/UX Design</li>
-                            <li className="font-medium">Fullstack Web Development</li>
-                            <li className="font-medium">Database Architecture</li>
+                            <li className="font-medium">UI/UX Design & Research</li>
+                            <li className="font-medium">Web Design</li>
+                            <li className="font-medium">Information Architecture</li>
                             <li className="font-medium">API Integration & Automation</li>
                         </ul>
                     </div>
@@ -79,10 +79,10 @@ const About = () => {
                             Design comes first in everything I build. I focus on creating clean, intuitive, and delightful experiences:
                         </p>
                         <ul className="list-disc space-y-2 pl-6">
-                            <li className="font-medium">Human-Centered Interfaces</li>
-                            <li className="font-medium">Clean, Modern Aesthetics</li>
-                            <li className="font-medium">Fully Responsive Layouts</li>
-                            <li className="font-medium">Interactive Wireframe & Prototypes</li>
+                            <li className="font-medium">User Research & Wireframe</li>
+                            <li className="font-medium">Interactive Prototyping</li>
+                            <li className="font-medium">Responsive Design</li>
+                            <li className="font-medium">User Feedback Loops</li>
                         </ul>
                     </div>
                     <div
@@ -114,19 +114,19 @@ const About = () => {
                             <li className="">
                                 <h2 className="font-medium">Frontend:</h2>
                                 <p className="text-gray-600 dark:text-gray-400">
-                                    Tailwind CSS, React
-                                </p>
-                            </li>
-                            <li className="">
-                                <h2 className="font-medium">Backend:</h2>
-                                <p className="text-gray-600 dark:text-gray-400">
-                                    Node.js, MongoDB
+                                    HTML, CSS, Figma, Photoshop
                                 </p>
                             </li>
                             <li className="">
                                 <h2 className="font-medium">Design:</h2>
                                 <p className="text-gray-600 dark:text-gray-400">
-                                    Figma, Framer, Photoshop
+                                    User Research, Wireframe, Prototyping, Usability Testing
+                                </p>
+                            </li>
+                             <li className="">
+                                <h2 className="font-medium">UX:</h2>
+                                <p className="text-gray-600 dark:text-gray-400">
+                                    Miro, Notion
                                 </p>
                             </li>
                         </ul>
