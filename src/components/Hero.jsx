@@ -42,7 +42,7 @@ const Hero = () => {
                                 Hey, I&#x27;m <span className="gradient-text">Sejal</span>
                                 <div className="inline-block">✨</div>
                                 <br />
-                                A <span className="gradient-text">Frontend Developer</span>
+                                A <span className="gradient-text mt-3">UI/UX Designer</span>
                             </motion.h1>
                         </motion.div>
 
