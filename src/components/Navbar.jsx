@@ -29,7 +29,7 @@ const Navbar = () => {
                             loading="lazy"
                             style={{ color: 'transparent' }}
                         />
-                        <div className="text-2xl font-bold gradient-text">Sejal.dev</div>
+                        <div className="text-2xl font-bold gradient-text">UXbySejal</div>
                     </a>
 
                     {/* Desktop Nav */}
