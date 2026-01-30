@@ -44,11 +44,11 @@ const About = () => {
                             <h1 className="text-2xl font-bold text-center">What I can do</h1>
                         </div>
                         <p className="text-gray-600 dark:text-gray-400 pb-4">
-                            I collaborate to build effective, user-focused solutions that drive growth:
+                            I design and develop seamless digital experiences that connect design intent with business impact.
                         </p>
                         <ul className="list-disc space-y-2 pl-6">
-                            <li className="font-medium">UI/UX Design & Research</li>
-                            <li className="font-medium">Web Design</li>
+                            <li className="font-medium">Responsive UI Development</li>
+                            <li className="font-medium">Performance Optimization</li>
                             <li className="font-medium">Information Architecture</li>
                             <li className="font-medium">API Integration & Automation</li>
                         </ul>
@@ -73,16 +73,16 @@ const About = () => {
                                     ></path>
                                 </svg>
                             </div>
-                            <h1 className="text-2xl font-bold text-center">UI/UX Design</h1>
+                            <h1 className="text-2xl font-bold text-center">UI/UX Expertise</h1>
                         </div>
                         <p className="text-gray-600 dark:text-gray-400 pb-4">
-                            Design comes first in everything I build. I focus on creating clean, intuitive, and delightful experiences:
+                            I craft intuitive, accessible, and visually consistent interfaces that users love to engage with.
                         </p>
                         <ul className="list-disc space-y-2 pl-6">
-                            <li className="font-medium">User Research & Wireframe</li>
-                            <li className="font-medium">Interactive Prototyping</li>
-                            <li className="font-medium">Responsive Design</li>
-                            <li className="font-medium">User Feedback Loops</li>
+                            <li className="font-medium">User Journey Mapping</li>
+                            <li className="font-medium">Mobile-First Responsive Design</li>
+                            <li className="font-medium">Accessibility & Usability Audits</li>
+                            <li className="font-medium">Design System Implementation</li>
                         </ul>
                     </div>
                     <div
@@ -108,27 +108,33 @@ const About = () => {
                             <h1 className="text-2xl font-bold text-center">Tools I Use</h1>
                         </div>
                         <p className="text-gray-600 dark:text-gray-400 pb-4">
-                            I work with a modern stack to craft fast, scalable, and maintainable digital products:
+                            I leverage a modern, scalable stack for design-to-development precision.
                         </p>
                         <ul className="list-disc pl-6">
                             <li className="">
                                 <h2 className="font-medium">Frontend:</h2>
                                 <p className="text-gray-600 dark:text-gray-400">
-                                    HTML, CSS, Figma, Photoshop
+                                    HTML, CSS, JavaScript, React.js
                                 </p>
                             </li>
                             <li className="">
                                 <h2 className="font-medium">Design:</h2>
                                 <p className="text-gray-600 dark:text-gray-400">
-                                    User Research, Wireframe, Prototyping, Usability Testing
+                                    Figma, Framer, Photoshop
                                 </p>
                             </li>
-                             <li className="">
-                                <h2 className="font-medium">UX:</h2>
+                            <li className="">
+                                <h2 className="font-medium">UX Practices:</h2>
                                 <p className="text-gray-600 dark:text-gray-400">
-                                    Miro, Notion
+                                    Wireframing, Usability Testing, Design Tokens & UI Consistency
                                 </p>
                             </li>
+                            {/* <li className="">
+                                <h2 className="font-medium">Collaboration:</h2>
+                                <p className="text-gray-600 dark:text-gray-400">
+                                    Notion, Jira, Zeplin
+                                </p>
+                            </li> */}
                         </ul>
                     </div>
                 </div>

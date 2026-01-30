@@ -2,6 +2,38 @@ import React from 'react';
 
 const projectsData = [
     {
+        title: '🧯InsuCore | Insurance Platform UI Concept',
+        description: 'A user-friendly insurance website concept built to simplify policy management and enhance user trust through a clean, modern interface.',
+        image: '/InsureCoreCover.png',
+        alt: 'InsuCore | Insurance Platform UI Concept',
+        url: 'https://www.behance.net/gallery/237612913/InsuCore-Insurance-Platform-UI-Concept',
+        tech: ['Figma', 'Insurance', 'UI UX', 'Clean UI']
+    },
+    {
+        title: '🏢 Real Estate Website & Mobile App UI Design',
+        description: 'A clean and responsive real estate interface designed for seamless property discovery and user engagement.',
+        image: '/RealEstateCover.png',
+        alt: 'Real Estate Website & Mobile App UI Design',
+        url: 'https://www.behance.net/gallery/237565821/Real-Estate-Website-Mobile-App-UI-Design',
+        tech: ['Figma', 'RealEstate', 'UI UX']
+    },
+    {
+        title: '🧑🏻‍⚕️ Health Care 24x7 Mobile App ',
+        description: 'A modern health app concept that connects users with doctors anytime, anywhere with intuitive design and smooth navigation.',
+        image: '/Cover.png',
+        alt: 'Health Care 24x7 Mobile App',
+        url: 'https://www.behance.net/gallery/237569775/Health-Care-24x7',
+        tech: ['Figma', 'Health Care', 'Mobile App']
+    },
+    {
+        title: '👔 Attiré – Modern Fashion',
+        description: 'A sleek eCommerce concept inspired by contemporary fashion trends, crafted for a stylish shopping experience.',
+        image: '/Cover1.png',
+        alt: 'Attiré – Modern Fashion',
+        url: 'https://www.behance.net/gallery/237579353/Attir-Modern-Fashion-eCommerce-App-Concept',
+        tech: ['Figma', 'eCommerce', 'Web App']
+    },
+    {
         title: '🎬 PopcornBoard',
         description: 'A movie explorer app using TMDb API with Netflix-style UI.',
         image: '/popcornboard.webp',
@@ -12,7 +44,7 @@ const projectsData = [
     {
         title: '🌈 Color Tide',
         description:
-            'Color Tide is a responsive Gradient Generator PWA built with React.js and Bootstrap, enabling users to create, copy, and download curated CSS gradients.',
+            'Color Tide is a responsive Gradient Generator PWA built with React.js and Bootstrap.',
         image: '/Tide1.png',
         alt: 'Color Tide Gradient Generator',
         url: 'https://sejal0115.github.io/color-tide/',
