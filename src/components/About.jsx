@@ -47,8 +47,8 @@ const About = () => {
                             I design and develop seamless digital experiences that connect design intent with business impact.
                         </p>
                         <ul className="list-disc space-y-2 pl-6">
-                            <li className="font-medium">Product & Experience Design</li>
-                            <li className="font-medium">Interaction Design & Motion</li>
+                            <li className="font-medium">Responsive UI Development</li>
+                            <li className="font-medium">Performance Optimization</li>
                             <li className="font-medium">Information Architecture</li>
                             <li className="font-medium">API Integration & Automation</li>
                         </ul>
@@ -80,7 +80,7 @@ const About = () => {
                         </p>
                         <ul className="list-disc space-y-2 pl-6">
                             <li className="font-medium">User Journey Mapping</li>
-                            <li className="font-medium">Interactive Prototyping</li>
+                            <li className="font-medium">Mobile-First Responsive Design</li>
                             <li className="font-medium">Accessibility & Usability Audits</li>
                             <li className="font-medium">Design System Implementation</li>
                         </ul>
@@ -114,7 +114,7 @@ const About = () => {
                             <li className="">
                                 <h2 className="font-medium">Frontend:</h2>
                                 <p className="text-gray-600 dark:text-gray-400">
-                                    HTML, CSS, JavaScript
+                                    HTML, CSS, JavaScript, React.js
                                 </p>
                             </li>
                             <li className="">
@@ -126,7 +126,7 @@ const About = () => {
                             <li className="">
                                 <h2 className="font-medium">UX Practices:</h2>
                                 <p className="text-gray-600 dark:text-gray-400">
-                                    Wireframing, Usability Testing, Design Tokens
+                                    Wireframing, Usability Testing, Design Tokens & UI Consistency
                                 </p>
                             </li>
                             {/* <li className="">
