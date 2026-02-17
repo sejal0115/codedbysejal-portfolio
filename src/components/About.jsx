@@ -15,25 +15,25 @@ const About = () => {
                     transition={{ duration: 0.6 }}
                     viewport={{ once: true }}
                 >
-                    <h1 className="text-4xl font-bold mb-2">Designing Experiences, Not Just Interfaces</h1>
+                    <h1 className="text-4xl font-bold mb-2">Designing Systems, Engineering Experiences.</h1>
                     <p className="text-gray-600 dark:text-gray-400">
                         I craft visually compelling UIs and develop seamless applications that stand out in both form and function.
                     </p>
                 </motion.div>
-                <div className="grid grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 gap-12 pt-12">
+                <div className="grid grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 gap-4 pt-12">
                     <div
                         className="flex flex-col border-1 border-border rounded-xl p-8 dark:bg-gradient-gray backdrop-blur-3xl"
                     >
                         <div className="flex pb-4 items-center">
-                            <div className="text-3xl md:text-4xl text-primary mr-5">
+                            <div className="text-3xl md:text-4xl text-primary mr-3">
                                 <svg
                                     stroke="currentColor"
                                     fill="currentColor"
                                     strokeWidth="0"
                                     viewBox="0 0 640 512"
                                     style={{ fill: "var(--primary)" }}
-                                    height="45"
-                                    width="45"
+                                    height="1em"
+                                    width="1em"
                                     xmlns="http://www.w3.org/2000/svg"
                                 >
                                     <path
@@ -41,16 +41,15 @@ const About = () => {
                                     ></path>
                                 </svg>
                             </div>
-                            <h1 className="text-2xl font-bold text-center">What I can do</h1>
+                            <h1 className="text-2xl font-bold">UX Strategy</h1>
                         </div>
                         <p className="text-gray-600 dark:text-gray-400 pb-4">
-                            I design and develop seamless digital experiences that connect design intent with business impact.
+                            I architect seamless user journeys that balance usability, business goals, and technical feasibility.
                         </p>
                         <ul className="list-disc space-y-2 pl-6">
-                            <li className="font-medium">Responsive UI Development</li>
-                            <li className="font-medium">Performance Optimization</li>
+                            <li className="font-medium">User Journey Mapping</li>
                             <li className="font-medium">Information Architecture</li>
-                            <li className="font-medium">API Integration & Automation</li>
+                            <li className="font-medium">Accessibility Audits</li>
                         </ul>
                     </div>
                     <div
@@ -73,16 +72,15 @@ const About = () => {
                                     ></path>
                                 </svg>
                             </div>
-                            <h1 className="text-2xl font-bold text-center">UI/UX Expertise</h1>
+                            <h1 className="text-2xl font-bold text-center">Interface Systems</h1>
                         </div>
                         <p className="text-gray-600 dark:text-gray-400 pb-4">
-                            I craft intuitive, accessible, and visually consistent interfaces that users love to engage with.
+                            I design scalable, visually consistent systems that enhance usability and product cohesion.
                         </p>
                         <ul className="list-disc space-y-2 pl-6">
-                            <li className="font-medium">User Journey Mapping</li>
-                            <li className="font-medium">Mobile-First Responsive Design</li>
-                            <li className="font-medium">Accessibility & Usability Audits</li>
-                            <li className="font-medium">Design System Implementation</li>
+                            <li className="font-medium">Component-Based UI</li>                            
+                            <li className="font-medium">Design Tokens</li>
+                            <li className="font-medium">Accessibility Patterns</li>
                         </ul>
                     </div>
                     <div
@@ -105,36 +103,21 @@ const About = () => {
                                     ></path>
                                 </svg>
                             </div>
-                            <h1 className="text-2xl font-bold text-center">Tools I Use</h1>
+                            <h1 className="text-2xl font-bold text-center">Build & Optimize</h1>
                         </div>
                         <p className="text-gray-600 dark:text-gray-400 pb-4">
-                            I leverage a modern, scalable stack for design-to-development precision.
+                            I transform design systems into high-performance, production-ready applications.
                         </p>
-                        <ul className="list-disc pl-6">
-                            <li className="">
-                                <h2 className="font-medium">Frontend:</h2>
-                                <p className="text-gray-600 dark:text-gray-400">
-                                    HTML, CSS, JavaScript, React.js
-                                </p>
+                        <ul className="list-disc space-y-2 pl-6">
+                            <li className="font-medium">
+                                React & Modern JS
                             </li>
-                            <li className="">
-                                <h2 className="font-medium">Design:</h2>
-                                <p className="text-gray-600 dark:text-gray-400">
-                                    Figma, Framer, Photoshop
-                                </p>
+                            <li className="font-medium">
+                                API & State Management
                             </li>
-                            <li className="">
-                                <h2 className="font-medium">UX Practices:</h2>
-                                <p className="text-gray-600 dark:text-gray-400">
-                                    Wireframing, Usability Testing, Design Tokens & UI Consistency
-                                </p>
+                            <li className="font-medium">
+                                Performance & Optimization
                             </li>
-                            {/* <li className="">
-                                <h2 className="font-medium">Collaboration:</h2>
-                                <p className="text-gray-600 dark:text-gray-400">
-                                    Notion, Jira, Zeplin
-                                </p>
-                            </li> */}
                         </ul>
                     </div>
                 </div>

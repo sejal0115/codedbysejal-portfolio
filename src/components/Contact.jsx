@@ -50,10 +50,10 @@ const Contact = () => {
                     <div className="bg-gradient-primary wave-grid flex flex-col 2xl:flex-row lg:items-center p-8 lg:p-12 gap-12 justify-between">
                         <div className="2xl:mb-10 md:text-center 2xl:text-left">
                             <h1 className="font-bold text-3xl 2xl:text-5xl text-primary">
-                                Bringing your ideas to life.<br />Let&#x27;s turn your vision into reality
+                                Let&#x27;s Build Something Meaningful
                             </h1>
-                            <p className="text:lg 2xl:text-xl text-secondary mt-2">
-                                Have a project in mind or just want to chat? Let&#x27;s connect!
+                            <p className="text:lg 2xl:text-xl text-secondary mt-2">                                
+                                Have a product idea or collaboration in mind? <br/> Let&#x27;s connect.
                             </p>
                         </div>
                         <div className="w-full lg:w-[500px] bg-background bg-gradient-gray p-6 border-border border rounded-lg shadow-xl z-50 backdrop-blur-xl">

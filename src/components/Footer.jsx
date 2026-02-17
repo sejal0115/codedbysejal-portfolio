@@ -7,7 +7,7 @@ const Footer = () => {
                         <div className="mb-8 md:mb-0">
                             <div className="flex items-center mb-2">
                                 <div>
-                                    <h2 className="text-xl font-bold">Sejal S Mahadik</h2>
+                                    <h2 className="text-xl font-bold">Sejal Mahadik</h2>
                                     <div className="flex gap-2 items-center">
                                         <img
                                             alt=""
