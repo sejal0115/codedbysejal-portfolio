@@ -42,7 +42,7 @@ const Hero = () => {
                                 Hey, I&#x27;m <span className="gradient-text">Sejal</span>
                                 <div className="inline-block">✨</div>
                                 <br />
-                                A <span className="gradient-text mt-3">Front-End Developer</span>
+                                A <span className="gradient-text mt-3">UI/UX Engineer</span>
                             </motion.h1>
                         </motion.div>
 
@@ -53,10 +53,9 @@ const Hero = () => {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.8, duration: 0.6 }}
                         >
-                            I <span className="font-bold tracking-[-0.04px]">design</span> and <span className="font-bold tracking-[-0.04px]">build</span> clean, <span className="font-bold tracking-[-0.04px]">user-focused</span> web interfaces that just feel <span className="font-bold tracking-[-0.04px]">right</span>.
-                            <br />Passionate about creating seamless user experiences with a creative touch.
+                            I translate <span className="font-bold tracking-[-0.04px]">user research</span> into <span className="font-bold tracking-[-0.04px]">scalable,</span> clean, <span className="font-bold tracking-[-0.04px]">responsive interfaces</span> designing systems in Figma and bringing them to life with React.
                         </motion.p>
-
+                       
                         {/* Buttons and Socials */}
                         <motion.div
                             className="flex flex-col gap-8 lg:gap-0 lg:flex-row lg:items-center justify-between max-w-[600px] mt-8"

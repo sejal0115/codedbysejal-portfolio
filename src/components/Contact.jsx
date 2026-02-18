@@ -50,10 +50,10 @@ const Contact = () => {
                     <div className="bg-gradient-primary wave-grid flex flex-col 2xl:flex-row lg:items-center p-8 lg:p-12 gap-12 justify-between">
                         <div className="2xl:mb-10 md:text-center 2xl:text-left">
                             <h1 className="font-bold text-3xl 2xl:text-5xl text-primary">
-                                Bringing your ideas to life.<br />Let&#x27;s turn your vision into reality
+                                Let&#x27;s Build Something Meaningful
                             </h1>
                             <p className="text:lg 2xl:text-xl text-secondary mt-2">
-                                Have a project in mind or just want to chat? Let&#x27;s connect!
+                                Have a product idea or collaboration in mind? <br /> Let&#x27;s connect.
                             </p>
                         </div>
                         <div className="w-full lg:w-[500px] bg-background bg-gradient-gray p-6 border-border border rounded-lg shadow-xl z-50 backdrop-blur-xl">
@@ -61,10 +61,12 @@ const Contact = () => {
                                 <div className="flex flex-col gap-2">
                                     <label className="text-sm font-medium leading-none" htmlFor="name">Name</label>
                                     <input
+                                        id="name"
                                         type="text"
                                         name="name"
                                         value={formData.name}
                                         onChange={handleChange}
+                                        autoComplete="name"
                                         required
                                         placeholder="Your Name"
                                         className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
@@ -72,10 +74,12 @@ const Contact = () => {
 
                                     <label className="text-sm font-medium leading-none" htmlFor="email">Email</label>
                                     <input
+                                        id="email"
                                         type="email"
                                         name="email"
                                         value={formData.email}
                                         onChange={handleChange}
+                                        autoComplete="email"
                                         required
                                         placeholder="contact@example.com"
                                         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
@@ -84,9 +88,11 @@ const Contact = () => {
 
                                     <label className="text-sm font-medium leading-none" htmlFor="message">Message</label>
                                     <textarea
+                                        id="message"
                                         name="message"
                                         value={formData.message}
                                         onChange={handleChange}
+                                        autoComplete="message"
                                         required
                                         placeholder="Your message here..."
                                         className="flex min-h-[80px] w-full h-32 rounded-md border border-input bg-background px-3 py-2 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"

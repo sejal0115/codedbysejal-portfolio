@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import NotFound from "./components/NoFound";
 import Loader from "./components/Loader";
 import TechStack from "./components/TechStack";
+import Process from "./components/Process";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -33,6 +34,7 @@ function App() {
               <TechStack />
               <About />
               <Projects />
+              <Process />
               <Contact />
             </>
           }

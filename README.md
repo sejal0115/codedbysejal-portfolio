@@ -34,8 +34,8 @@ A modern, dark-themed, single-page developer portfolio built with **React.js**, 
 
 ## 🧑‍💻 Author
 
-**Sejal S Mahadik**  
-Front-End Developer 
+**Sejal Mahadik**  
+UI/UX Engineer 
 [LinkedIn](https://www.linkedin.com/in/sejal-mahadik-69b546170/) • [Dev.to](https://dev.to/codedbysejal)
 
 ## 📜 License
