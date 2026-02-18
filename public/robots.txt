@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
+
 Sitemap: https://sejalmahadik.netlify.app/sitemap.xml
